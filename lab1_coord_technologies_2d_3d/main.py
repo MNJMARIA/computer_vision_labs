@@ -75,6 +75,7 @@ def task_2d(win):
     y_new = cy + (x0 - cx) * mt.sin(a) + (y0 - cy) * mt.cos(a)
     print("скалярно:", x_new, y_new)
     print("матрично:", step3[0, :2])
+    print("збігаються:", np.allclose([x_new, y_new], step3[0, :2]))
 
 
     # ---------- Операція 1: обертання навколо центру ----------

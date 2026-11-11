@@ -110,7 +110,15 @@ def task_3d(win):
                 poly.setOutline(fade((0, 0, 0), t))
                 poly.draw(win)
                 polys.append(poly)
+            # lines = []
+            # for a, b in EDGES:
+            #     line = Line(Point(flat[a, 0], flat[a, 1]), Point(flat[b, 0], flat[b, 1]))
+            #     line.setFill(fade((0, 0, 0), t))
+            #     line.draw(win)
+            #     lines.append(line)
             win.update()
             time.sleep(0.03)
+            # for line in lines:  # стираємо кадр
+            #     line.undraw()
             for poly in polys:
                 poly.undraw()

@@ -13,7 +13,7 @@ Every lab is stored in its own folder with the source code, the figures it produ
 
 | # | Lab | Description | Source |
 |---|---|---|---|
-| 1 | **Formation and transformation of 2D and 3D object coordinates** | Matrix geometric transformations in homogeneous coordinates: rotation and translation of a 2D rectangle, composite transformations, and (in progress) a 3D pyramid with axonometric projection and animation | [lab1_coord_technologies_2d_3d/](lab1_coord_technologies_2d_3d/) |
+| 1 | **Formation and transformation of 2D and 3D object coordinates** | Matrix geometric transformations in homogeneous coordinates: rotation and translation of a 2D rectangle, composite transformations, and a 3D pyramid with isometric projection, filled faces and animation | [lab1_coord_technologies_2d_3d/](lab1_coord_technologies_2d_3d/) |
 
 New labs are added to this table as they are completed.
 
@@ -31,6 +31,7 @@ computer-vision-technologies-labs/
 ├── README.md
 └── lab1_coord_technologies_2d_3d/     # Lab 1 — 2D and 3D coordinate transformations
     ├── main.py
+    ├── pyramid.py
     ├── graphics.py                    # third-party drawing library (see the lab README)
     ├── img/                           # screenshots of the results
     ├── requirements.txt
